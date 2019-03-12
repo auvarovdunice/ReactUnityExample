@@ -1,0 +1,151 @@
+.home-main {
+  .container {
+    .preview {
+      position: relative;
+      .preview-image {
+      }
+      .tracking-input-container {
+        position: absolute;
+        width: 40%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .tracking-input {
+          width: 100%;
+          input {
+            text-align: center;
+          }
+          .tracking-button {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+    .cargo-tracking-section {
+      margin-top: 20px;
+      .tracking-container {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.unity-container {
+  padding: 30px;
+}
+
+.section-header {
+  margin-top: 20px !important;
+  color: #555555 !important;
+  letter-spacing: 2px !important;
+  line-height: 3rem !important;
+}
+
+.text_violet {
+  color: #1D7FB5;
+}
+
+.tracking-features {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .tracking-features__item {
+    margin-bottom: 10px;
+    .tracking-features__label {
+      color: #484848;
+    }
+  }
+}
+
+.cargo-tracking-description {
+  color: #484848;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.feature-item {
+  .feature-title {
+    color: #484848;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    .feature-subtitle {
+      color: #484848;
+      position: absolute;
+      right: 0;
+      bottom: -15px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .feature-description {
+    color: #484848;
+    font-size: 18px;
+  }
+  .features-list {
+    color: #484848;
+    margin: 0;
+  }
+}
+
+.subfeatures {
+  margin-top: 5px;
+  padding-left: 20px;
+
+  .subfeatures__item {
+    .subfeature__title {
+      margin-left: 10px;
+      font-size: 14px;
+      color: #484848;
+    }
+  }
+}
+
+.fleet-section {
+  margin-top: 20px;
+}
+
+.fleet-features {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  .fleet-features__item {
+    margin-bottom: 10px;
+    .fleet-features__label {
+      color: #484848;
+    }
+    .fleet-features__label-big {
+      color: #484848;
+      font-size: 18px;
+    }
+  }
+}
+
+.fleet-description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .fleet-description {
+    color: #484848;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+}
+
+.fleet-features-description {
+  .fleet-features-description__label {
+    color: #484848;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.sensor-management-section {
+  margin-top: 20px;
+}
