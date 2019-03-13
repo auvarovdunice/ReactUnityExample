@@ -32,6 +32,11 @@
 
 .unity-container {
   padding: 30px;
+  div {
+    canvas {
+      width: 100%;
+    }
+  }
 }
 
 .section-header {
